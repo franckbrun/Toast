@@ -18,8 +18,8 @@ Additionally you can pass a Dictionnary ([String : AnyObject] or his counterpart
 ```swift
 var attributes = ToastAttributes()
 
-attributes[Toast.TextColor] = textColorWell.color
-attributes[Toast.BackgroundColor] = backgroundColorWell.color
+attributes[Toast.TextColor] = NSColor.whiteColor()
+attributes[Toast.BackgroundColor] = NSColor.darkGrayColor()
 
 Toast.show("Toast World!", attributes: attributes)
 ```
