@@ -31,7 +31,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
   @IBAction func toastIt(sender: AnyObject?) {
     
-    var attributes = [String : AnyObject]()
+    var attributes = ToastAttributes()
     
     attributes[Toast.TextColor] = textColorWell.color
     attributes[Toast.BackgroundColor] = backgroundColorWell.color
